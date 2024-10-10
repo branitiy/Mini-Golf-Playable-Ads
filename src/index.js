@@ -40,8 +40,6 @@ function init() {
             let currentScene = game.scene.scenes[1];
             if (currentScene instanceof MainScene) {
                 currentScene.resize();
-            } else if (currentScene instanceof MainScene) {
-
             }
         }
     }
